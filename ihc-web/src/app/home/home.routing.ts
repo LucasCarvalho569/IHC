@@ -2,11 +2,11 @@ import { HomeModule } from './home.module';
 
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
+import { ForroComponent } from '../forro/forro.component';
 
 
 const routes: Routes = [
-    // { path: '', component: HomeModule#HomeComponent },
-    // { path: 'home', component: HomeComponent },
+     { path: 'forro', component: ForroComponent },
 ];
 
 @NgModule({

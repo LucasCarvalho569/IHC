@@ -1,0 +1,9 @@
+<div class="card panel panel-primary col-md-{{ larguraCard }} col-md-offset-{{ offsetCard }}">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{ titulo }}</h3>
+    </div>
+    <div class="panel-body">
+        <img src="{{ srcImagem }}" alt="{{ altImagem }}">
+        <div [innerHTML]="texto" class="texto"></div>
+    </div>
+</div>

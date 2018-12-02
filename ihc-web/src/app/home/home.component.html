@@ -1,1 +1,18 @@
-<p>Works!</p>
+<ul class="breadcrumb">
+    <li class="active">Home</li>
+</ul>
+
+<div class=".container">
+    <div class="row">
+        <app-card srcImagem="assets/forrogif.gif" [texto]="textoForro" titulo="Forró"
+        (click)="visitarPagina('forro')"></app-card>
+        <app-card srcImagem="assets/breakdance.gif" [texto]="textoBreak" titulo="Break dance"
+        [offsetCard]="2" (click)="visitarPagina('breakdance')"></app-card>
+    </div>
+    <div class="row">
+        <app-card srcImagem="assets/ballet.gif" [texto]="textoBallet" titulo="Ballet"
+        (click)="visitarPagina('ballet')"></app-card>
+        <app-card srcImagem="assets/carlton.gif" [texto]="textoCarlton" titulo="Carlton dance" 
+        [offsetCard]="2" (click)="visitarPagina('carlton')"></app-card>
+    </div>
+</div>

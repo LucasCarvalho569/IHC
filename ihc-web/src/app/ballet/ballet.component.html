@@ -1,0 +1,12 @@
+<ul class="breadcrumb">
+    <li (click)="visitarPagina('home')" class="breadcumbLink">Home</li>
+    <li class="active">Ballet</li>
+</ul>
+    
+<div class="container">
+    <div class="row">
+        <app-card titulo="Ballet" [texto]="textoBallet" [hasHover]="false" [larguraCard]="10"
+        srcVideo="../assets/ballet.mp4">
+        </app-card>
+    </div>
+</div>

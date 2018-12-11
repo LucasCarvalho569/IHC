@@ -1,9 +1,12 @@
-<div class="card panel panel-primary col-md-{{ larguraCard }} col-md-offset-{{ offsetCard }}">
+<div [ngClass]="{card: hasHover}" class="panel panel-primary col-md-{{ larguraCard }} col-md-offset-{{ offsetCard }}">
     <div class="panel-heading">
         <h3 class="panel-title">{{ titulo }}</h3>
     </div>
     <div class="panel-body">
         <img src="{{ srcImagem }}" alt="{{ altImagem }}">
+        <video width="600" height="380" controls *ngIf="srcVideo">
+            <source src=" {{ srcVideo }} " type="video/mp4">
+        </video>
         <div [innerHTML]="texto" class="texto"></div>
     </div>
 </div>

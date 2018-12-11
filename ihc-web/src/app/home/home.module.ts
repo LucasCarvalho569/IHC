@@ -1,3 +1,7 @@
+import { AnimacaoModule } from './../animacao/animacao.module';
+import { CarltonModule } from './../carlton/carlton.module';
+import { BalletModule } from './../ballet/ballet.module';
+import { BreakModule } from './../break/break.module';
 import { SharedModule } from './../shared/shared.module';
 import { HomeRoutingModule } from './home.routing';
 
@@ -15,7 +19,11 @@ import { ForroModule } from '../forro/forro.module';
         CommonModule,
         HomeRoutingModule,
         SharedModule,
-        ForroModule
+        ForroModule,
+        BreakModule,
+        BalletModule,
+        CarltonModule,
+        AnimacaoModule
     ],
     exports: [
         HomeComponent

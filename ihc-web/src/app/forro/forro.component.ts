@@ -1,3 +1,4 @@
+import { TextoUtils } from './../Utils/texto.utils';
 import { Router } from '@angular/router';
 
 import { Component, OnInit } from '@angular/core';
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./forro.component.scss']
 })
 export class ForroComponent implements OnInit {
+    public textoForro = TextoUtils.textoForro;
+
     constructor(private router: Router) { }
 
     public ngOnInit(): void { } 

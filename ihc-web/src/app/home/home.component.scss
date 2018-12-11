@@ -11,3 +11,15 @@
   margin-left: 0;
   margin-right: 0;
 }
+
+.secreto {
+  font-size: 14px;
+  color: white;
+  transition: font-size 3s;
+}
+
+.secreto:hover {
+  font-size: 18px;
+  color: blue;
+  cursor: pointer;
+}

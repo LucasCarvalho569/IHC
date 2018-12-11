@@ -2,7 +2,7 @@
     <li class="active">Home</li>
 </ul>
 
-<div class=".container">
+<div class="container">
     <div class="row">
         <app-card srcImagem="assets/forrogif.gif" [texto]="textoForro" titulo="Forró"
         (click)="visitarPagina('forro')"></app-card>
@@ -14,5 +14,8 @@
         (click)="visitarPagina('ballet')"></app-card>
         <app-card srcImagem="assets/carlton.gif" [texto]="textoCarlton" titulo="Carlton dance" 
         [offsetCard]="2" (click)="visitarPagina('carlton')"></app-card>
+    </div>
+    <div class="row">
+        <p class="secreto col-md-2" (click)="visitarPagina('animacao')">Animação secreta</p>
     </div>
 </div>

@@ -26,6 +26,12 @@ export class CardComponent implements OnInit {
     @Input()
     public texto: string;
 
+    @Input()
+    public hasHover = true;
+
+    @Input()
+    public srcVideo: string;
+
     constructor() { }
 
     ngOnInit(): void { }

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 
+.panel {
+    padding: 0;
+}
+
 .col-md-4 {
     padding-left: 0;
     padding-right: 0;
@@ -17,4 +21,9 @@
 
 img {
     max-width: 100%;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
 }
